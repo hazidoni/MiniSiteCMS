@@ -43,14 +43,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin bejelentkezés</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Admin bejelentkezés</title>
 </head>
 <body class="bg-light">
     <div class="container">
         <div class="row justify-content-center mt-5">
             <div class="col-md-4">
-                <h1 class="h4 mb-3">Admin bejelentkezés</h1>
+                <h1 class="h4 mb-3 text-center">Admin bejelentkezés</h1>
                 <?php if ($error): ?>
                     <div class="alert alert-danger">
                         <?php echo htmlspecialchars($error, ENT_QUOTES, 'UTF-8'); ?>
@@ -67,6 +67,7 @@
                         <input type="password" name="password" class="form-control">
                     </div>
                     <button class="btn btn-primary w-100" type="submit">Belépés</button>
+                    <button class="btn btn-danger mt-3"><a href="../public/index.php" class="link-light link-offset-2 link-underline link-underline-opacity-0">Vissza</a></button>
                 </form>  
             </div>
         </div>

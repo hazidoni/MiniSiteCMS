@@ -21,7 +21,6 @@
         <li><a href="services.php">Szolgáltatások kezelése</a></li>
         <li><a href="portfolio.php">Referenciák kezelése</a></li>
         <li><a href="settings.php">Főoldal szövegek szerkesztése</a></li>
-        <li><a href="../admin/logout.php">Kilépés</a></li>
     </ul>
 <?php
 require __DIR__ . '/../public/templates/admin_footer.php';

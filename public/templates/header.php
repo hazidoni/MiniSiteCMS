@@ -11,7 +11,8 @@
             <a href="index.php?page=home">Főoldal</a> |
             <a href="index.php?page=services">Szolgáltatások</a> |
             <a href="index.php?page=portfolio">Referenciák</a> |
-            <a href="index.php?page=contact">Kapcsolat</a>
+            <a href="index.php?page=contact">Kapcsolat</a> |
+            <a href="../admin\index.php">Login</a>
         </nav>
         <hr>
     </header>
