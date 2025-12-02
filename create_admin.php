@@ -1,4 +1,9 @@
 <?php
+    /*Only run this file once so you get an admin profile
+    * name: admin
+    * password: admin123
+    */
+
     declare(strict_types=1);
 
     require __DIR__ . '/app/config.php';
